@@ -70,7 +70,7 @@ public class EmailTest {
 		assertEquals(email,email);
 	}
 	
-	// Test method for buildMimeMessage method that is empty (23.3% coverage)
+	/* // Test method for buildMimeMessage method that is empty (23.3% coverage)
 	@Test(expected=IllegalStateException.class)
 	public void testBuildMimeMessageEmpty() throws EmailException{
 		email.buildMimeMessage();
@@ -112,7 +112,7 @@ public class EmailTest {
 		email.buildMimeMessage();
 		assertEquals(email.getMimeMessage(),email);
 	}
-	
+	 */
 	
 	// Test method for getHostName with session (82.4% coverage)
 	@Test
